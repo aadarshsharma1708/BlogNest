@@ -19,7 +19,6 @@
     * [Frontend Setup](#frontend-setup)
     * [Running the Application](#running-the-application)
 * [📚 Usage](#-usage)
-* [🏗️ Project Structure](#️-project-structure)
 * [💡 Contributing](#-contributing)
 * [📄 License](#-license)
 * [📞 Contact](#-contact)
@@ -33,15 +32,27 @@ BlogNest is a modern, responsive, and intuitive personal blogging application de
 
 Whether you're a seasoned writer looking to share your thoughts or an avid reader seeking engaging content, BlogNest provides a clean and efficient platform for all your blogging needs.
 
-### 📸 Screenshots (Optional)
+### 📸 Screenshots
 
-Add screenshots or GIFs here to showcase your application.
+*1. Home Page*
+<br>
+<br>
+([![BlogNest_SS1](https://github.com/user-attachments/assets/b0cfe214-5989-4dbc-b2b7-116897e1ea46)
+]) 
+<br>
 
-![Homepage Screenshot]([PATH_TO_YOUR_SCREENSHOT_1])
-*Caption for Screenshot 1*
+*2. Create Post Page*
+<br>
+<br>
+([![BlogNest_SS2](https://github.com/user-attachments/assets/4cbafa2c-8d4e-4e98-9036-4480f741e155)
+]) 
+<br>
+*3. Post Preview Page*
+<br>
+<br>
+([![BlogNest_SS3](https://github.com/user-attachments/assets/7161333f-67af-4ba6-aef3-16851cf7cba4)
+])
 
-![Create Post Screenshot]([PATH_TO_YOUR_SCREENSHOT_2])
-*Caption for Screenshot 2*
 
 ---
 
@@ -213,34 +224,6 @@ Once the application is running:
 
 ---
 
-## 🏗️ Project Structure
-
-A high-level overview of the project directory structure:
-
-BlogNest/
-├── public/                     # Static assets
-├── src/
-│   ├── App.jsx                 # Main application component
-│   ├── main.jsx                # Entry point
-│   ├── appwrite/               # Appwrite service configurations and SDK calls
-│   │   └── config.js           # Appwrite client, database, storage setup
-│   ├── components/             # Reusable UI components (AuthLayout, Button, Header, Footer, Input, Select, RTE, PostCard, etc.)
-│   ├── pages/                  # Top-level page components (Home, AllPosts, AddPost, EditPost, Login, Signup, Post, etc.)
-│   ├── store/                  # Redux Toolkit setup (authSlice, postSlice if needed)
-│   │   └── authSlice.js
-│   │   └── store.js
-│   ├── assets/                 # Images, icons, etc.
-│   ├── styles/                 # Tailwind CSS configuration or custom styles
-│   └── index.css               # Main CSS file (Tailwind directives)
-├── .env.example                # Example environment variables
-├── .gitignore                  # Files/folders to ignore in Git
-├── package.json                # Project dependencies and scripts
-├── tailwind.config.js          # Tailwind CSS configuration
-└── README.md                   # This file
-
-
----
-
 ## 💡 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -263,8 +246,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-Your Name - [Your Email Address]
-Project Link: [YOUR_REPO_LINK]
+aadarshsharma.1708@gmail.com
+<br>
+Project Link: https://github.com/aadarshsharma1708/BlogNest
 
 ---
 
